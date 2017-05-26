@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Copyright (c) 2017 Florian Pigorsch
+# MIT licensed (see LICENSE for details)
+#
+# git-repo-backup - Backup a git repository using rsync
+
 set -e
 
 if [ $# != 2 ] ; then
