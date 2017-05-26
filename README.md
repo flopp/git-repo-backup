@@ -20,7 +20,7 @@ project-latest -> project-2017-05-26T21:10:00   # symbolic link to latest snapsh
 project.log                                     # logfile
 ```
 
-You can call `git-repo-backup.sh` nicely from *cron*, since it checks for change sin the epo before creating a new snapshot.
+You can call `git-repo-backup.sh` nicely from *cron*, since it checks for changes in the repo before creating a new snapshot.
 
 ## Features:
 
